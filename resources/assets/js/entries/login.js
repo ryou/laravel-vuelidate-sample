@@ -4,9 +4,6 @@ import LoginForm from '@/pages/login/LoginForm';
 
 Vue.use(Vuelidate);
 
-console.log('hogehoge');
-
-
 new Vue({
     el: '#app',
     components: {
