@@ -15,7 +15,7 @@ class ForceHttpsProtocol
      */
     public function handle($request, Closure $next)
     {
-        if (!$request->secure() && config('app.env') === 'production')
+        if (!$request->secure() && config('APP_ENV') === 'production')
         {
             return redirect()->secure($request->getRequestUri());
         }
