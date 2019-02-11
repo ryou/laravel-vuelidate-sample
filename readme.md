@@ -2,6 +2,10 @@
 
 `Vuetify`や`Quasar framework`等のフレームワークを使わない独自のデザインでそれなりに汎用的なバリデーションを実装したいので試しに書いた。
 
+## Demo
+
+[Heroku](https://laravel-vuelidate-sample.herokuapp.com)
+
 ## 想定機能
 
 + 一番最初の入力時は、Blurタイミングまでバリデーションが実行されない。
